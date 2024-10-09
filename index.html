@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="parouimpar.css">
+    
+    <title>Par Ou Impar</title>
+</head>
+<body>
+    <main>
+        <div id="quadro">
+            <h2>Par ou Impar</h2>
+            <input type="number" name="numero" id="numero1" min="0" placeholder="insira um número...">
+
+            <input type="button" value="descobrir" onclick="ParOuImpa()">
+            <div id="resposta" class="res">...</div>
+        </div>
+        <div id="quandro2">
+            <h2>Operações Básicas</h2>
+
+            <input type="number" name="" id="opera1" placeholder="primeiro valor...">
+            <input type="number" name="" id="opera2" placeholder="segundo valor...">
+
+            <div>
+            <input type="button" value="+" onclick="soma()">
+            <input type="button" value="-" onclick="subtracao()">
+            <input type="button" value="x" onclick="multiplicacao()">
+            <input type="button" value="÷" onclick="divisao()">
+            <div id="resposta2" class="res">...</div>
+
+            </div>            
+        </div>
+    </main>
+    <script src="ParOuImpa.js"></script>
+</body>
+</html>
